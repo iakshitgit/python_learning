@@ -1,0 +1,20 @@
+from loguru import logger
+
+# Define labour names and wages
+first_labour_name = "Mahesh"
+first_labour_wage = 500
+
+second_labour_name = "Mithilesh"
+second_labour_wage = 400
+
+third_labour_name = "Ramesh"
+third_labour_wage = 400
+
+fourth_labour_name = "Sumesh"
+fourth_labour_wage = 300
+
+# Print using string formatting
+print("Labour Name: {} | Daily Wage: {}".format(first_labour_name, first_labour_wage))
+print("Labour Name: {} | Daily Wage: {}".format(second_labour_name, second_labour_wage))
+print("Labour Name: {} | Daily Wage: {}".format(third_labour_name, third_labour_wage))
+print("Labour Name: {} | Daily Wage: {}".format(fourth_labour_name, fourth_labour_wage))

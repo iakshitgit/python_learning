@@ -1,0 +1,11 @@
+from loguru import logger
+
+firstLabour = "Mahesh"
+secondLabour = "Mithilesh"
+thirdLabour = "Ramesh"
+fourthLabour = "Sumesh"
+
+logger.info(f"First labour is {firstLabour}.") 
+logger.info(f"Second labour is {secondLabour}.")
+logger.info(f"Third labour is {thirdLabour}.")
+logger.info(f"Fourth labour is {fourthLabour}.")
