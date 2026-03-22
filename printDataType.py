@@ -6,3 +6,4 @@ labour_mistri1 = "Jagmohan"
 is_home = True
 
 logger.info(f"Length of land: {length_of_land}, Bricks_cost_per_price: {brick_cost_per_price}, Labour_mistri1:{labour_mistri1}, is_home:{is_home}")
+logger.info(f"Length of land is: {type(length_of_land)}, Bricks_cost_per_price is : {type(brick_cost_per_price)}, Labour_mistri1 is :{type(labour_mistri1)}, is_home is :{type(is_home)}")
